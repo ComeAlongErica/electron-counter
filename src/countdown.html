@@ -3,7 +3,13 @@
     <link rel="stylesheet" href="countdown.css" />
   </head>
   <body>
-    <h1>hey</h1>
-    <script>require('./renderer')</script>
+    <div class="container">
+      <h1 class="title">Counter</h1>
+      <div id="count" class="countdown"></div>
+      <button id="start" class="btn">Start Countdown</button>
+    </div>
+    <script>
+      require('./renderer')
+    </script>
   </body>
 </html>
