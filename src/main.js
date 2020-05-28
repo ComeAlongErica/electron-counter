@@ -10,6 +10,8 @@ app.on('ready', _ => {
     width: 400
   })
 
+  mainWindow.loadURL(`file://${__dirname}/countdown.html`)
+
   // null out on close for garbage collection
   mainWindow.on('closed', _ => {
     console.log('closed')
